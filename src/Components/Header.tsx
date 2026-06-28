@@ -1,7 +1,5 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Logo } from './Logo';
-
 interface NavLinkProps {
   to: string;
   label: string | React.ReactNode;
